@@ -3,17 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrunSker.Api", "BrunSker.Api\BrunSker.Api.csproj", "{FD260437-CDFA-4DB1-9461-AAE67209D91E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrunSker.Api", "BrunSker.Api\BrunSker.Api.csproj", "{FD260437-CDFA-4DB1-9461-AAE67209D91E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrunSker.ApplicationService", "BrunSker.ApplicationService\BrunSker.ApplicationService.csproj", "{A60181E4-092F-4160-888D-96ED7EFD860F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrunSker.ApplicationService", "BrunSker.ApplicationService\BrunSker.ApplicationService.csproj", "{A60181E4-092F-4160-888D-96ED7EFD860F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrunSker.Domain", "BrunSker.Domain\BrunSker.Domain.csproj", "{27890ABA-1CD3-4A2B-8DC1-67C633D0093B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrunSker.Domain", "BrunSker.Domain\BrunSker.Domain.csproj", "{27890ABA-1CD3-4A2B-8DC1-67C633D0093B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrunSker.Business", "BrunSker.Business\BrunSker.Business.csproj", "{07B77E4C-06A4-4B15-9747-02109D8947F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrunSker.Business", "BrunSker.Business\BrunSker.Business.csproj", "{07B77E4C-06A4-4B15-9747-02109D8947F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrunSker.Infra", "BrunSker.Infra\BrunSker.Infra.csproj", "{88FFC7F9-425E-4079-B6DE-7A19C727E159}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrunSker.Infra", "BrunSker.Infra\BrunSker.Infra.csproj", "{88FFC7F9-425E-4079-B6DE-7A19C727E159}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrunSker.Ioc", "BrunSker.Ioc\BrunSker.Ioc.csproj", "{BDCC229F-33AB-4EE2-85E0-A740165711FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrunSker.Ioc", "BrunSker.Ioc\BrunSker.Ioc.csproj", "{BDCC229F-33AB-4EE2-85E0-A740165711FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FE96ABB6-40AC-48F7-83E0-9A3CF20A0316}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{70ABE1E3-551F-4954-AC4A-0DEBF1378E54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{E5E1F6E8-1A7A-4826-A0B1-72ED5DE870AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBuilders", "TestBuilders\TestBuilders.csproj", "{5232E96B-5B84-4FD1-816F-B57DE8B6DA83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,9 +53,26 @@ Global
 		{BDCC229F-33AB-4EE2-85E0-A740165711FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDCC229F-33AB-4EE2-85E0-A740165711FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDCC229F-33AB-4EE2-85E0-A740165711FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70ABE1E3-551F-4954-AC4A-0DEBF1378E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70ABE1E3-551F-4954-AC4A-0DEBF1378E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70ABE1E3-551F-4954-AC4A-0DEBF1378E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70ABE1E3-551F-4954-AC4A-0DEBF1378E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5E1F6E8-1A7A-4826-A0B1-72ED5DE870AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5E1F6E8-1A7A-4826-A0B1-72ED5DE870AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5E1F6E8-1A7A-4826-A0B1-72ED5DE870AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5E1F6E8-1A7A-4826-A0B1-72ED5DE870AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5232E96B-5B84-4FD1-816F-B57DE8B6DA83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5232E96B-5B84-4FD1-816F-B57DE8B6DA83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5232E96B-5B84-4FD1-816F-B57DE8B6DA83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5232E96B-5B84-4FD1-816F-B57DE8B6DA83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70ABE1E3-551F-4954-AC4A-0DEBF1378E54} = {FE96ABB6-40AC-48F7-83E0-9A3CF20A0316}
+		{E5E1F6E8-1A7A-4826-A0B1-72ED5DE870AD} = {FE96ABB6-40AC-48F7-83E0-9A3CF20A0316}
+		{5232E96B-5B84-4FD1-816F-B57DE8B6DA83} = {FE96ABB6-40AC-48F7-83E0-9A3CF20A0316}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32538F24-2554-4E14-BF5E-A6501F7FC350}

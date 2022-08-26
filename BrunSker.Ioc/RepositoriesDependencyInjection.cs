@@ -8,7 +8,7 @@ namespace BrunSker.Ioc
     {
         public static void AddRepositoriesDependencyInjection(this IServiceCollection services)
         {
-            services.AddScoped<ILeaseRepository, LeaseRepository>();
+            services.AddScoped<ILocacaoRepository, LocacaoRepository>();
         }
     }
 }

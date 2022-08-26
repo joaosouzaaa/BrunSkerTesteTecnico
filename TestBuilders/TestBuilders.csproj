@@ -7,10 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FluentValidation" Version="11.2.0" />
+    <PackageReference Include="Bogus" Version="34.0.2" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BrunSker.ApplicationService\BrunSker.ApplicationService.csproj" />
     <ProjectReference Include="..\BrunSker.Domain\BrunSker.Domain.csproj" />
   </ItemGroup>
 

@@ -5,8 +5,8 @@ namespace BrunSker.Infra.Contexts
 {
     public class BrunSkerDbContext : DbContext
     {
-        public DbSet<Lease> Leases { get; set; }
-        public DbSet<Address> Address { get; set; }
+        public DbSet<Locacao> Locacoes { get; set; }
+        public DbSet<Endereco> Enderecos { get; set; }
 
         public BrunSkerDbContext(DbContextOptions<BrunSkerDbContext> options) : base(options)
         {

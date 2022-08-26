@@ -1,4 +1,5 @@
-﻿using BrunSker.Business.Interfaces.Notification;
+﻿using BrunSker.ApplicationService.AutoMapperConfigurations;
+using BrunSker.Business.Interfaces.Notification;
 using BrunSker.Business.Settings.NotificationSettings;
 using BrunSker.Infra.Contexts;
 using Microsoft.EntityFrameworkCore;
@@ -20,6 +21,8 @@ namespace BrunSker.Ioc
             });
 
             services.AddScoped<INotificationHandler, NotificationHandler>();
+
+            AutoMapperConfig.Inicialize();
 
             services.AddRepositoriesDependencyInjection();
             services.AddServicesDependencyInjection();
