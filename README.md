@@ -25,10 +25,16 @@
 
 ![alt text](https://github.com/joaosouzaaa/BrunSkerTesteTecnico/blob/master/ImagesForGit/appsettings.png)
 
-- Acesse o package manager e insira o comando:
-"update-database"
+- Acesse o package manager:
 
 ![alt text](https://github.com/joaosouzaaa/BrunSkerTesteTecnico/blob/master/ImagesForGit/where%20to%20access.png)
+
+Selecione o pipeline para utilizar o projeto de Infra:
+![alt text](https://github.com/joaosouzaaa/BrunSkerTesteTecnico/blob/master/ImagesForGit/pipeline.png)
+
+Insira o comando: "update-database".
+
+Seu banco já estará pronto para uso, o script de criação se encontra na camada de api, porém seu uso não é necessário.
 
 # Executar os testes
 
